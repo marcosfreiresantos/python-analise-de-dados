@@ -1,0 +1,59 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de configuração e temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+*.env
+.python-version
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Arquivos de dados grandes ou sensíveis
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.sqlite3
+*.db
+*.h5
+*.parquet
+*.feather
+*.pkl
+*.joblib
+
+# Arquivos compactados
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Saídas de modelos
+models/
+checkpoints/
+output/
+runs/
+
+# Pastas de build e distribuição (caso use setup.py)
+build/
+dist/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Google Colab (se usar)
+gdrive/
+
